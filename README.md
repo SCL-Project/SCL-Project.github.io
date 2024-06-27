@@ -1,5 +1,5 @@
 # Starting the backend
-Open two terminals. 
+Open two terminals, one in p2p-backend and one is p2p-frontend-poc.
 
 Reinstall all npm packages: ``npm install``
 
