@@ -9,6 +9,7 @@ import Auth from './auth/Auth'
 import App from './App'
 import Register from './auth/register/Register'
 import HomeIndex from './portal/homeIndex'
+import TokenTransfer from './portal/TokenTransfer'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -26,6 +27,9 @@ root.render(
 				</Route>
 				<Route path='/auth' element={<Auth />}>
 					<Route path='register' element={<Register />} />
+				</Route>
+				<Route path='/marketplace' element={<TokenTransfer />}>
+					<Route path='grant-credit/:borrowerAddress/:amount/:period' element={<TokenTransfer />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>
