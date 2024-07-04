@@ -48,7 +48,7 @@ const Register = () => {
 	return (
 		<React.Fragment>
 			<Container className='my-5 min-vh-100'>
-				<h2 className='fw-normal mb-5'>Register to P2P Lending</h2>
+				<h2 className='fw-normal mb-5'>Register to Peer2Learn</h2>
 				<Row>
 					<Col md={{ span: 6 }}>
 						<Form onSubmit={submitRegisterForm}>
