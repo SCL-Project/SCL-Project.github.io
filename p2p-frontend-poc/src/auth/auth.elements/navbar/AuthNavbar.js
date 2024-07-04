@@ -10,7 +10,7 @@ const AuthNavbar = () => {
 				<NavbarContainer>
 					<NavLogo>
 						<NavLink to='/' style={{ all: 'unset', cursor: 'pointer' }}>
-							P2P-Lending
+							Peer2Learn
 						</NavLink>
 					</NavLogo>
 					<NavBarButtons>
