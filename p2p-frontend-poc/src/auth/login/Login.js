@@ -42,7 +42,7 @@ const Login = () => {
 	return (
 		<React.Fragment>
 			<Container className='my-5 min-vh-100'>
-				<h2 className='fw-normal mb-5'>Login To P2P Lending</h2>
+				<h2 className='fw-normal mb-5'>Login To Peer2Learn</h2>
 				<Row>
 					<Col md={{ span: 6 }}>
 						<Form id='loginForm' onSubmit={submitLoginForm}>
