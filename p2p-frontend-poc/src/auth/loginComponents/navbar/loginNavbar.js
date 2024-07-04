@@ -15,7 +15,7 @@ const LoginNavbar = () => {
 				<NavbarContainer>
 					<NavLogo>
 						<NavLink to='/' style={{ all: 'unset', cursor: 'pointer' }}>
-							P2P-Lending
+							Peer2Learn
 						</NavLink>
 					</NavLogo>
 					<NavBtn>
