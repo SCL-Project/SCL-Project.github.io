@@ -1,8 +1,6 @@
 # Starting the backend
 Open two terminals.
 
-Reinstall all npm packages: ``npm install``
-
 For one navigate into the p2p-backend directory  ->  
 install npm (npm install) and all the dependencies (npm i ... )  ->  
 use ``node index.js`` to start the backend. It will run on port 4000
