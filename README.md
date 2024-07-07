@@ -1,4 +1,4 @@
-# Starting the backend
+# Acces Website using the Create React App 
 Open two terminals.
 
 For one navigate into the p2p-backend directory  ->  
